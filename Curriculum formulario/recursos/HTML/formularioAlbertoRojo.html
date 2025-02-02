@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alberto Rojo 2ºASIR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Img/iconoAlbertoRojo.png" >
+    <link rel="stylesheet" id="csschg2" href="../CSS/formularioAlbertoRojo.css">
+    <script src="../Javascript/indexAlbertoRojo.js"></script>
+    <title>Contactar</title>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <section>
+            <article>
+                <fieldset>
+                    <form action="" method="get">
+                        <table>
+                            <caption>Por favor, introduzca la información solicitada para poder contactar. <hr></caption>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <b>¿Eres una organización?</b><br>
+                                    </th>
+                                    <th>
+                                        <div class="opcion">
+                                            <label for="org">SI: </label>
+                                            <input type="radio" class="inputchk" checked name="org" id="orgsi" onclick="orgval()">
+                                        </div>
+                                        <div class="opcion">
+                                            <label for="org">NO: </label>
+                                            <input type="radio" class="inputchk" name="org" id="orgno" onclick="orgval()">
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><label for="nombre" id="nomorg">Nombre: </label></td>
+                                    <td><input class="cuad" type="text" name="nom" id="nom" placeholder="Nombre de organización."></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="ape">Apellido: </label></td>
+                                    <td> <input class="cuad" type="text" name="ape" id="ape" step="1" disabled placeholder="Deshabilitado."></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="tel">Teléfono: </label></td>
+                                    <td><input class="cuad" type="number" name="num" id="num" placeholder="Introduce un número de telefono."></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="mail">Correo de contacto: </label></td>
+                                    <td><input class="cuad" type="text" name="mail" id="mail" placeholder="Introduce un correo electrónico."></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <textarea name="text" class="cuadtxt" id="text" cols="30" rows="10" placeholder="Introduce tu mensaje."></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                            <input type="checkbox" class="inputchk" name="cond" id="cond" onclick="terminos()">
+                                            <i>Soy consciente que los datos introducidos se van a utilizar <br> 
+                                                respecto a la ley de protección de datos. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673">Ver más</a></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                        <td><input type="button" class="btn" onclick="validar()" disabled value="Enviar todo" id="submit"></td>
+                                        <td><button type="button" class="btn" onclick="tocv()">Volver</button></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </fieldset>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="textfooter">&#169 Alberto Rojo Melero</p>
+        <p><form action="" method="get">
+            <label for="tema">Cambiar tema</label>
+            <input type="checkbox" name="tema2" id="tema2" class="inputchk" onchange="chgtema2()">        
+        </form></p>
+    </footer>
+</body>
+</html>

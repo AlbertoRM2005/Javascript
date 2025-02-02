@@ -1,0 +1,205 @@
+/*Alberto Rojo Melero */
+
+body {
+    background-image: url(../Img/fondoAlbertoRojo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1%;
+    background-image: 
+        linear-gradient(rgba(184, 50, 211, 0.5), rgba(184,50,211,0.5)),
+        url(../Img/bannerAlbertoRojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    margin-left: 35%;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+#perfil {
+    width: 140px;
+    height: 140px;
+    margin-right: 33%;
+    border-radius: 50%;
+}
+
+#ordencentro {
+    display: flex;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+nav {
+    text-align: center;
+    background-color: rgb(123, 20, 184);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    display: inline block;
+}
+
+.centrarnav {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+#boton {
+    margin-top: 5%;
+    height: 40px;
+    color: white;
+    font-size: 125%;
+    border: 3px solid rgb(57, 0, 95);
+    border-radius: 15px;
+    background-color: purple;
+    width: 75%;
+    margin-left: 12%;
+} 
+#boton:hover {
+    color: red;
+    background-color: bisque;
+    font-style: italic;
+}
+
+a {
+color: white;
+font-size: 110%;
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    margin: 8px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+article {
+    background-color: rgb(74, 0, 83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+    color: white;
+    border-radius: 10px;
+    border: purple 5px solid;
+    margin: 10px;
+    width: 45%;
+}
+
+.SobreMi {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    background-color: rgb(89, 57, 97);
+    border-radius: 15px;
+    margin: 50px;
+    font-size: 120%;
+}
+
+.sobremitexto {
+    margin: 5%;
+}
+
+.caracteristicas {
+    display: flex;
+    background-color: rgb(89, 57, 97);
+    border-radius: 15px;
+    margin: 50px;
+    font-size: 120%;
+}
+
+#caracteristicastexto {
+    margin: 5%;
+}
+
+#caracteristicastabla {
+    margin: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: solid purple 5px;
+    background-color: blueviolet;
+    font-size: 110%;
+}
+
+.centrartit {
+    width: 100%;
+    text-align: center;
+    color: aqua;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+ }
+
+.flexbig{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexsmol {
+    flex:  1 1 40%;
+    border-radius: 15px;
+    margin: 5px;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(89, 57, 97);
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 150%;
+    background-color: purple;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+#textfooter {
+    text-align: right;
+}
+
+input {
+    margin-left: 5%;
+    width: 25px;
+    height: 25px;
+}

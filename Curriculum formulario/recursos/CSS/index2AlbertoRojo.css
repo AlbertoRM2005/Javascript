@@ -1,0 +1,205 @@
+/*Alberto Rojo Melero */
+
+body {
+    background-image: url(../Img/fondo2AlbertoRojo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1%;
+    background-image: 
+        linear-gradient(rgba(0, 153, 255, 0.5), rgba(0, 153 ,255 ,0.5)),
+        url(../Img/banner2AlbertoRojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 35%;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130%;
+}
+
+#perfil {
+    width: 140px;
+    height: 140px;
+    margin-right: 33%;
+    border-radius: 50%;
+}
+
+#ordencentro {
+    display: flex;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+nav {
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 125%;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    display: inline block;
+}
+
+.centrarnav {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+#boton {
+    margin-top: 5%;
+    height: 40px;
+    color: orangered;
+    font-size: 125%;
+    border: 3px solid blue;
+    border-radius: 15px;
+    background-color: burlywood;
+    width: 75%;
+    margin-left: 12%;
+} 
+#boton:hover {
+    color: white;
+    background-color: darkblue;
+    font-style: italic;
+}
+
+a {
+color: orangered;
+font-size: 110%;
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    margin: 8px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+article {
+    background-color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    color: black;
+    border-radius: 10px;
+    border: darkblue 5px solid;
+    margin: 10px;
+    width: 45%;
+}
+
+.SobreMi {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 50px;
+    font-size: 120%;
+}
+
+.sobremitexto {
+    margin: 5%;
+}
+
+.caracteristicas {
+    display: flex;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 50px;
+    font-size: 120%;
+}
+
+#caracteristicastexto {
+    margin: 5%;
+}
+
+#caracteristicastabla {
+    margin: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: solid green 5px;
+    background-color: lightgreen;
+    font-size: 110%;
+}
+
+.centrartit {
+    width: 100%;
+    text-align: center;
+    color: aqua;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+ }
+
+.flexbig{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexsmol {
+    flex:  1 1 40%;
+    border-radius: 15px;
+    margin: 5px;
+    width: 40%;
+    height: 40%;
+    background-color: burlywood;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 150%;
+    background-color: cyan;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+#textfooter {
+    text-align: right;
+}
+
+input {
+    margin-left: 5%;
+    width: 25px;
+    height: 25px;
+}

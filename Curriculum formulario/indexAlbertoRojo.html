@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto Rojo Melero">
+    <link rel="icon" href="recursos/Img/iconoAlbertoRojo.png" >
+    <link rel="stylesheet" id="csschg" href="recursos/CSS/indexAlbertoRojo.css">
+    <script src="recursos/Javascript/indexAlbertoRojo.js"></script>
+    <title>Currículum Alberto Rojo</title>
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <p><h1>Currículum vitae</h1></p>
+            <p><h1>Manuel Carrasco Gímenéz</h1></p>
+            <p><h3>Ingeniero informático</h3></p>
+        </div>
+        <img id ="perfil" src="recursos/Img/fotoperfilAlbertoRojo.jpg" alt="imagen">
+    </header>
+    <div id="ordencentro">
+        <nav><p><h2>Contacto</h2></p>
+            <p>
+                <a class="centrarnav" href="https://www.linkedin.com/"><img class="icon" src="recursos/Img/linkedinAlbertoRojo.png" alt="LinkedIn"></a>
+                <a class="centrarnav" href="https://x.com/"><img class="icon" src="recursos/Img/xAlbertoRojo.png" alt="X"></a>
+                <a class="centrarnav" href="https://es-es.facebook.com/"><img class="icon" src="recursos/Img/faceAlbertoRojo.png" alt="Facebook"></a><br>
+                <div>
+                    <b>Correo: </b>
+                    <a href="mailto:alberto.rojo1@educa.madrid.org">manuel.carrasco</a>
+                </div>
+                <button id="boton" onclick="tocontact()" class="centrarnav">Contactar</button>
+                <p class="centrarnav">Hora de entrada
+                    <script>
+                        var time = new Date();
+                        document.write(time.getHours()+":"+time.getMinutes()+":"+time.getSeconds());
+                    </script>
+                </p>
+            </p>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <p><h2>Datos personales:</h2></p>
+                    <div class="SobreMi">
+                        <p class="sobremitexto"><b>Sobre mí:</b><br>
+                            ¡Hola! Mi nombre es Manuel Carrasco, soy ingeniero en sistemas informáticos con una especialización en seguridad 
+                            informática. Además tengo con una mente curiosa, me encanta la naturaleza y pasear por el campo.
+                            Tengo una gran experiencia en la implementación sistemas de seguridad informáticas y garantizar la integridad de 
+                            la información. Además, mi pasión por aprender todos los días un poco me impulsa a abordar cada proyecto dando 
+                            lo mejor de mí todos los días.
+                            </p>
+                    </div>
+                    <div class="SobreMi">
+                        <p class="sobremitexto"><b>Otros datos:</b>
+                            <table class="sobremitexto">
+                                <caption></caption>
+                                <thead></thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ciudad:</td>
+                                        <td><i>Coslada,Madrid (España)</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dirección:</td>
+                                        <td><i>Avenida España,11</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Código postal:</td>
+                                        <td><i>28823</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Año de nacimiento</td>
+                                        <td><i>9/11/1987</i></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot></tfoot>
+                            </table>
+                    </div>
+                    </p>
+                </article>
+                <article>
+                    <p><h2>Estudios y formación</h2></p>
+                    <div class="flexbig">
+                        <div class="flexsmol">
+                            <ul>
+                                <li><b>Ciclo formativo de grado superior en administración de sistemas informáticos y redes.</b></li>
+                                <li><i>11/9/2005 - 6/6/2007</i></li>
+                                <li><b>Centro: </b><a href="https://site.educa.madrid.org/ies.villablanca.madrid/">IES Villablanca</a></li>
+                                <li><b>Ciudad: </b>Vicálvaro,Madrid (España)</li>
+                            </ul>
+                        </div>
+                        <img class="logo" class="flexsmol" src="recursos/Img/VillablancaAlbertoRojo.jpg" alt="Centro">
+                        <div class="flexsmol">
+                            <ul>
+                                <li><b>Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</b></li>
+                                <li><i>11/9/2008 - 6/6/2009</i></li>
+                                <li><b>Centro: </b><a href="https://site.educa.madrid.org/ies.elcanaveral.mostoles/index.php/">IES El Cañaveral</a></li>
+                                <li><b>Ciudad: </b>Móstoles,Madrid (España)</li>
+                            </ul>
+                        </div>
+                        <img class="logo" class="flexsmol" src="recursos/Img/CatalanAlbertoRojo.jpeg" alt="Centro">
+                            <div class="flexsmol">
+                                <ul>
+                                    <li><b>Grado en Ingeniería Informática</b></li>
+                                    <li><i>11/9/2007 - 6/6/2011</i></li>
+                                    <li><b>Centro: </b><a href="https://www.upm.es/">Universidad Politécnica de Madrid</a></li>
+                                    <li><b>Ciudad: </b>Moncloa-Aravaca,Madrid (España)</li>
+                                </ul>
+                            </div>
+                        <img class="logo" class="flexsmol" src="recursos/Img/politécnicaAlbertoRojo.png" alt="Centro">
+    
+                    </div>
+                </article>
+                <article>
+                    <p><h2>Experiencia laboral</h2></p>
+                    <div class="flexbig">
+                        <div class="flexsmol">
+                            <ul>
+                                <li><b>Cajero</b></li>
+                                <li><i>2/3/2008 - 3/8/2011</i></li>
+                                <li><b>Dirección: </b><a href="https://www.mercadona.es/">Mercadona</a></li>
+                                <li><b>Contacto: </b><a href="mailto:sugerencias@mercadona.es">sugerencias@mercadona.es</a></li>
+                            </ul>
+                        </div>
+                        <img class="logo" class="flexsmol" src="recursos/Img/MercadonaAlbertoRojo.jpg" alt="Centro">
+                        <div class="flexsmol">
+                            <ul>
+                                <li><b>Analista en sistemas informáticos.</b></li>
+                                <li><i>3/10/2011 - 27/8/2022</i></li>
+                                <li><b>Dirección: </b><a href="https://www.telefonica.com/es/">Telefónica</a></li>
+                                <li><b>Contacto: </b><a href="mailto:te_atencion_web_movistar@telefonica.com">te_atencion_web</a></li>
+                            </ul>
+                        </div>
+                        <img class="logo" class="flexsmol" src="recursos/Img/telefonicaAlbertoRojo.jpeg" alt="Centro">
+                    </div>
+                </article>
+                <article>
+                    <p><h2>Hablilidades personales</h2></p>
+                    <div class="caracteristicas">
+                        <ul  class="caracteristicastexto">
+                            <li>Organización</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Liderazgo</li>
+                            <li>Perseverancia</li>
+                        </ul>
+                    </div>
+                    <div class="caracteristicas">
+                        <table id="caracteristicastabla">
+                            <caption><b>Idiomas</b></caption>
+                            <thead></thead>
+                            <tbody>
+                                <tr>
+                                    <td>Español:</td>
+                                    <td><i><abbr title="Idioma principal">Idioma nativo</abbr></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Inglés:</td>
+                                    <td><i><abbr title="Usuario independiente">B2</abbr></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Francés:</td>
+                                    <td><i><abbr title="Usuario básico">A2</abbr></i></td>
+                                </tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                    <div></div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p id="textfooter">&#169 Alberto Rojo Melero</p>
+        <p><form action="" method="get">
+            <label for="tema">Cambiar tema</label>
+            <input type="checkbox" name="tema" id="tema" onchange="chgtema()">
+            
+        </form></p>
+    </footer>
+</body>
+</html>

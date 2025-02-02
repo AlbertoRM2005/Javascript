@@ -1,0 +1,103 @@
+/*Alberto Rojo Melero */
+
+body {
+    background-image: url(../Img/fondoAlbertoRojo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+fieldset {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190%;
+    background-color: rgb(74, 0, 83);
+    color: white;
+    border-radius: 20px;
+    border: 5px solid purple;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+caption {
+    font-size: 150%;
+}
+
+.opcion {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cuad {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    border: 4px solid purple;
+    background-color: rgb(89, 57, 97);
+    color: white;
+    font-size: 100%;
+    width: 500px;
+    height: 50px;
+}
+
+.cuadtxt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    border: 4px solid purple;
+    background-color: rgb(89, 57, 97);
+    color: white;
+    font-size: 100%;
+    width: 1000px;
+    height: 200px;
+}
+
+#cond {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    color: white;
+    font-size: 110%;
+}
+
+.btn {
+    margin-top: 5%;
+    height: 70px;
+    font-size: 100%;
+    color: white;
+    border: 3px solid rgb(57, 0, 95);
+    border-radius: 15px;
+    background-color: purple;
+    width: 300px;
+    margin-left: 33%;
+} 
+.btn:hover {
+    color: red;
+    background-color: bisque;
+    font-style: italic;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 150%;
+    background-color: purple;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+#textfooter {
+    text-align: right;
+}
+
+.inputchk {
+    margin-left: 5%;
+    width: 25px;
+    height: 25px;
+}
